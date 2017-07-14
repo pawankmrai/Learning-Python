@@ -14,8 +14,12 @@ midnight_in_paris = media.Movie("Midnight in Paris", "Storyline", "https://uploa
 
 hunger_games = media.Movie("Hunger Games", "Storyline", "https://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg", "https://www.youtube.com/watch?v=mfmrPu43DF8")
 
+hindi_medium = media.Movie("Hindi Medium", "Storyline", "https://upload.wikimedia.org/wikipedia/en/d/db/Hindi_Medium_Poster.jpg", "https://www.youtube.com/watch?v=GjkFr48jk68")
+
+logan = media.Movie("Logan", "Storyline", "https://upload.wikimedia.org/wikipedia/en/3/37/Logan_2017_poster.jpg", "https://www.youtube.com/watch?v=RH3OxVFvTeg")
+
 # Collect all the movie instances in list
-movies = [toy_story, avtar, school_of_rock, ratatouille, midnight_in_paris, hunger_games]
+movies = [toy_story, avtar, school_of_rock, ratatouille, midnight_in_paris, hunger_games, hindi_medium, logan]
 
 # Pass the movies list to open movie catalouge
 fresh_tomatoes.open_movies_page(movies)
